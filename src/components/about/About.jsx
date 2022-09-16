@@ -36,7 +36,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor,
+            Lorem ipsummm dolor,
             sit amet consectetur adipisicing elit.
             Consequuntur laborum, voluptas hic tenetur molestias
             sed ipsa fugiat accusantium praesentium est fuga excepturi neque blanditiis totam?
