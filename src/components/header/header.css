@@ -9,10 +9,12 @@ header {
   height: 100%;
   position: relative;
 }
-.header__container h3{
+
+.header__container h3 {
   margin-left: 4rem;
 }
-.header__container h1{
+
+.header__container h1 {
   margin-left: 2rem;
   color: var(--color-primary);
 }
@@ -38,7 +40,6 @@ header {
   left: 75%;
   bottom: 0%;
   font-size: 2rem;
-  left: calc(75% -11rem);
 }
 
 .header__socials::after {
@@ -50,8 +51,8 @@ header {
 
 /* ----------------Profile Picture ----------*/
 
-.me{
-  background: linear-gradient(180deg,var(--color-primary), transparent);
+.me {
+  background: linear-gradient(180deg, var(--color-primary), transparent);
   width: 25rem;
   height: 25rem;
   position: absolute;
@@ -59,7 +60,7 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding:0.5em 0.1rem;
+  padding: 0.5em 0.1rem;
 }
 
 
@@ -75,20 +76,21 @@ header {
 }
 
 /* ----------------Media Queries (Medium Devices) ----------*/
-@media screen and (max-width:1024px){
+@media screen and (max-width:1024px) {
 
-header {
-  height: 68vh;
-}
+  header {
+    height: 68vh;
+  }
 }
 
 /* ----------------Media Queries (sSall Devices) ----------*/
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
   header {
     height: 100vh;
   }
 
-  .header__socials,.scroll__down{
-    display:none;
+  .header__socials,
+  .scroll__down {
+    display: none;
   }
 }
