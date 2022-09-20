@@ -5,8 +5,8 @@ const Experience = () => {
   return (
     <section id='experience'>
 
-      <h5>Take a look</h5>
-      <h2>At my Skills!</h2>
+
+      <h2>My Skills</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -16,42 +16,42 @@ const Experience = () => {
               <GiCutDiamond className='experience__details-icon' />
               <div>
                 <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
             <article className='experience__details'>
               <GiCutDiamond className='experience__details-icon'/>
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
             <article className='experience__details'>
               <GiCutDiamond className='experience__details-icon'/>
               <div>
                 <h4>Javascript</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
             <article className='experience__details'>
               <GiCutDiamond className='experience__details-icon'/>
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
             <article className='experience__details'>
               <GiCutDiamond className='experience__details-icon'/>
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
             <article className='experience__details'>
               <GiCutDiamond className='experience__details-icon'/>
               <div>
                 <h4>SASS</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
           </div>
@@ -66,21 +66,21 @@ const Experience = () => {
               <GiCutDiamond className='experience__details-icon'/>
               <div>
                 <h4>Ruby</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
             <article className='experience__details'>
               <GiCutDiamond className='experience__details-icon'/>
               <div>
                 <h4>Postgresql</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
             <article className='experience__details'>
               <GiCutDiamond className='experience__details-icon'/>
               <div>
                 <h4>Node JS</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
           </div>

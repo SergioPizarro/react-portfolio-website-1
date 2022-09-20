@@ -9,6 +9,12 @@ header {
   height: 100%;
   position: relative;
 }
+.header__container h3{
+  margin-left: 4rem;
+}
+.header__container h1{
+  margin-left: 2rem;
+}
 
 /* ----------------CTA ----------*/
 
@@ -29,7 +35,8 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 18rem;
+
+  font-size: 2rem;
 }
 
 .header__socials::after {
@@ -62,7 +69,7 @@ header {
   bottom: 18rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
 }
 
 /* ----------------Media Queries (Medium Devices) ----------*/

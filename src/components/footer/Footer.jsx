@@ -5,7 +5,7 @@ import { BsGithub } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer>
-      
+
 
 
       <ul className="permalinks">
@@ -22,7 +22,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Sergio Pizarro. All rights reserved.</small>
+        <small>Made with &hearts; and <strong>React</strong>. &copy; Sergio Pizarro. All rights reserved.</small>
       </div>
     </footer>
   )

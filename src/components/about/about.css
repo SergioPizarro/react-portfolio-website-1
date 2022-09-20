@@ -22,6 +22,7 @@
 
 .about__me-image:hover {
   transform: scale(1.15, 1.15);
+  rotate: 5deg;
 }
 
 .about__cards {
@@ -87,7 +88,7 @@
   .about__me{
     width: 65%;
     margin: 0 auto 3rem;
-    
+
   }
 
   .about__cards{
