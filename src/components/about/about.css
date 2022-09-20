@@ -4,7 +4,9 @@
   gap:15%;
 
 }
-
+h2{
+  font-size: 2rem;
+}
 .about__me {
   width: 100%;
   aspect-ratio: 1/1;

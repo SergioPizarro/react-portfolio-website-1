@@ -14,6 +14,7 @@ header {
 }
 .header__container h1{
   margin-left: 2rem;
+  color: var(--color-primary);
 }
 
 /* ----------------CTA ----------*/
@@ -34,9 +35,10 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 0;
-
+  left: 75%;
+  bottom: 0%;
   font-size: 2rem;
+  left: calc(75% -11rem);
 }
 
 .header__socials::after {

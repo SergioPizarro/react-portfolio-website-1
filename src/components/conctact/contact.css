@@ -4,7 +4,9 @@
   grid-template-columns: 30% 50%;
   gap: 12%
 }
-
+h2{
+  font-size: 2rem;
+}
 .contact__options {
   display: flex;
   flex-direction: column;
