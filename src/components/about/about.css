@@ -4,7 +4,9 @@
   gap:15%;
 
 }
-
+h2{
+  font-size: 2rem;
+}
 .about__me {
   width: 100%;
   aspect-ratio: 1/1;
@@ -22,6 +24,7 @@
 
 .about__me-image:hover {
   transform: scale(1.15, 1.15);
+  rotate: 5deg;
 }
 
 .about__cards {
@@ -87,7 +90,7 @@
   .about__me{
     width: 65%;
     margin: 0 auto 3rem;
-    
+
   }
 
   .about__cards{
