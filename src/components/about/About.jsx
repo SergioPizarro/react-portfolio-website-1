@@ -36,8 +36,12 @@ const About = () => {
             </article>
           </div>
           <p>
-          My name is Sergio Pizarro and I moved to Berlin after a Bachelor's Degree in Industrial Engineering from the University Diego Portales in Chile to improve my language skills and intercultural competencies. Here, I decided to enroll in an intensive web-developer full-stack Bootcamp at Le Wagon and deepen the knowledge I acquired in my studies. During this program, I specialized primarily in backend development; however, I am interested in both front- and backend and currently learning React (like this Website). I'm up for new challenges and excited to learn new things.
-I moved to Berlin after a Bachelor's Degree
+          My name is Sergio Pizarro and I moved to Berlin after a Bachelor's Degree in Industrial Engineering
+          from the University Diego Portales in Chile to improve my language skills and intercultural competencies.
+          Here, I decided to enroll in an intensive web-developer full-stack Bootcamp at Le Wagon and deepen the
+          knowledge I acquired in my studies. During this program, I specialized primarily in backend
+          development; however, I am interested in both front- and backend as I am currently learning React
+          (like this Website). I'm up for new challenges and excited to learn new things!.
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
 

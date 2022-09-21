@@ -39,7 +39,7 @@
 
 }
 
-.portfolio__description > h2 {
+.portfolio__description > h3 {
 
   color: var(--color-primary);
 }

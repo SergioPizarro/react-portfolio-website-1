@@ -1,7 +1,10 @@
 header {
-  height: 80vh;
+  height: 79vh;
   padding-top: 7rem;
   overflow: hidden;
+}
+.h__1 {
+  color: var(--color-primary);
 }
 
 .header__container {
@@ -10,20 +13,10 @@ header {
   position: relative;
 }
 
-.header__container h3 {
-  margin-left: 4rem;
-}
-
-.header__container h1 {
-  margin-left: 2rem;
-  color: var(--color-primary);
-}
-
 /* ----------------CTA ----------*/
 
 .cta {
   margin-top: 2.5rem;
-  margin-left: 2rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -38,8 +31,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 75%;
-  bottom: 0%;
-  font-size: 2rem;
+  bottom: 0rem;
 }
 
 .header__socials::after {
@@ -51,16 +43,16 @@ header {
 
 /* ----------------Profile Picture ----------*/
 
-.me {
-  background: linear-gradient(180deg, var(--color-primary), transparent);
-  width: 25rem;
-  height: 25rem;
+.me{
+  background: linear-gradient(180deg,var(--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 0.5em 0.1rem;
+  padding:5rem 1.5rem 1.5rem 1.5rem;
 }
 
 
@@ -72,25 +64,24 @@ header {
   bottom: 18rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
 }
 
 /* ----------------Media Queries (Medium Devices) ----------*/
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1024px){
 
-  header {
-    height: 68vh;
-  }
+header {
+  height: 68vh;
+}
 }
 
 /* ----------------Media Queries (sSall Devices) ----------*/
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px){
   header {
     height: 100vh;
   }
 
-  .header__socials,
-  .scroll__down {
-    display: none;
+  .header__socials,.scroll__down{
+    display:none;
   }
 }

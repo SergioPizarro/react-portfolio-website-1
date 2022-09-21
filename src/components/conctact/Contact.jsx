@@ -44,19 +44,19 @@ const Contact = () => {
             <HiOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>sergio.pizarroseg@gmail.com</h5>
-            <a href="mailto:sergio.pizarroseg@gmail.com">Send a message</a>
+            <a href="mailto:sergio.pizarroseg@gmail.com" >Send a message</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Sergio Pizarro</h5>
-            <a href="https://m.me/sergio.n.pizarro">Send a message</a>
+            <a href="https://m.me/sergio.n.pizarro" target='blank'>Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon' />
             <h4>Whatsapp</h4>
             <h5>+4917661652846</h5>
-            <a href="https://api.whatsapp.com/send?phone=4917661652846">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=4917661652846" target='blank'>Send a message</a>
           </article>
         </div>
 
