@@ -41,14 +41,15 @@ h2{
   gap: 1rem;
   transition: var(--transition);
 }
-.experience__details:hover {
-  display: flex;
-  gap: 1rem;
-  scale: calc(1.05);
+
+.experience__details:hover{
+  scale:calc(1.1);
 }
+
 .experience__details-icon {
   margin-top: 6px;
   color: var(--color-primary);
+  font-size: 1.5rem;
 }
 
 
