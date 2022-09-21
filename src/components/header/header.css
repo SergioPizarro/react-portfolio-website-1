@@ -1,7 +1,8 @@
 header {
-  height: 79vh;
-  padding-top: 7rem;
-  overflow: hidden;
+height: 80vh;
+display: flex;
+align-content: center;
+justify-content: center;
 }
 .h__1 {
   color: var(--color-primary);
@@ -17,6 +18,7 @@ header {
 
 .cta {
   margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -47,8 +49,8 @@ header {
   background: linear-gradient(180deg,var(--color-primary), transparent);
   width: 22rem;
   height: 30rem;
-  position: absolute;
-  left: calc(50% - 11rem);
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
@@ -71,14 +73,14 @@ header {
 @media screen and (max-width:1024px){
 
 header {
-  height: 68vh;
+  height: 80vh;
 }
 }
 
-/* ----------------Media Queries (sSall Devices) ----------*/
+/* ----------------Media Queries (Small Devices) ----------*/
 @media screen and (max-width:600px){
   header {
-    height: 100vh;
+    height: 80vh;
   }
 
   .header__socials,.scroll__down{
