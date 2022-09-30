@@ -16,7 +16,7 @@
   border: 1px solid transparent;
   transition: var(--transition);
   min-width: 500px;
-  width:500px;
+  width: 500px;
   margin-bottom: 10px;
 
 
@@ -37,13 +37,13 @@
   object-fit: cover;
 }
 
-.portfolio__description{
-     /* width: 50%; */
-    /* height: 100%; */
-    margin-top: 0.1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.portfolio__description {
+  /* width: 50%; */
+  /* height: 100%; */
+  margin-top: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
 }
 
@@ -59,8 +59,14 @@
   margin-left: 15px;
 }
 
-.a__d{
+.a__d {
   align-self: flex-end;
 }
 
 /* --------------Media Queries (Medium Devices) ---------*/
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+
+    width: 100%;
+  }
+}
