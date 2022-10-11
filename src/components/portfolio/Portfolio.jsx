@@ -15,12 +15,12 @@ const Portfolio = () => {
             <img src={wePick} alt="wepick" />
           </div>
           <div className='portfolio__description'>
-            <h3>We Pick</h3>
-            <p>Web app where users can create an activity, add users, add proposals,
+            <div className="h3__d"><h3>We Pick</h3></div>
+            <div className='p__d'> <p>Web app where users can create an activity, add users, add proposals,
               and vote to pick between options in the activity. Like wich movie to watch in a movie night</p>
-
-            <a href='https://www.we-pick.fun' className='btn btn-primary' target='blank'>Try it yourself</a>
-
+            </div>
+            <div className="a__d"><a href='https://www.we-pick.fun' className='btn btn-primary' target='blank'>Try it yourself</a>
+            </div>
           </div>
         </article>
 
@@ -29,14 +29,16 @@ const Portfolio = () => {
             <img src={rentAPlant} alt="rentAPlant" />
           </div>
           <div className='portfolio__description'>
-            <h3>Rent a Plant</h3>
-            <p>Website where you can upload a plant so it can be rented for some time for certain
+
+            <div className="h3__d"><h3>Rent a Plant</h3></div>
+            <div className='p__d'><p>Website where you can upload a plant so it can be rented for some time for certain
               ammount of money. Here you can look for plants in your city
               and basically rent them, how fun!.
             </p>
+            </div>
 
-            <a href='https://rent-a-plant-app.herokuapp.com/' className='btn btn-primary' target='blank'>Try it yourself</a>
-
+            <div className="a__d"><a href='https://rent-a-plant-app.herokuapp.com/' className='btn btn-primary' target='blank'>Try it yourself</a>
+            </div>
           </div>
         </article>
 
@@ -45,19 +47,19 @@ const Portfolio = () => {
             <img src={githubPortfolio} alt="githubportfolio" />
           </div>
           <div className='portfolio__description'>
-            <h3>Rent a Plant</h3>
-            <p>Litle website created in Le Wagon, it does not have fancy thing
+            <div className="h3__d"> <h3>Litle Portfolio Github</h3></div>
+            <div className='p__d'><p>Litle website created in Le Wagon, it does not have fancy thing
               but it does have the links to my social media.
-              This website is a reminder of how I start with the litle page on github profiles!       </p>
+              This website is a reminder of how I start with the litle page on github profiles!       </p></div>
 
-            <a href='https://sergiopizarro.github.io/profile/' className='btn btn-primary' target='blank'>Try it yourself</a>
-
+            <div className="a__d"><a href='https://sergiopizarro.github.io/profile/' className='btn btn-primary' target='blank'>Try it yourself</a>
+            </div>
           </div>
         </article>
 
 
-      </div>
-    </section>
+      </div >
+    </section >
   )
 }
 
