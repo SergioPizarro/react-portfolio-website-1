@@ -91,14 +91,7 @@ const Experience = () => {
               </div>
 
             </article>
-            <article className='experience__details'>
-              <BsFillCheckCircleFill className='experience__details-icon'/>
-              <div>
-                <h4>Sanity</h4>
-
-              </div>
-
-            </article>
+            
           </div>
         </div>
       </div>
