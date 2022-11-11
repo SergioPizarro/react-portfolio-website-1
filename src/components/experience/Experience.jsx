@@ -65,7 +65,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsFillCheckCircleFill className='experience__details-icon'/>
               <div>
-                <h4>Ruby</h4>
+                <h4>Ruby on Rails</h4>
 
               </div>
             </article>
@@ -82,6 +82,22 @@ const Experience = () => {
                 <h4>Node JS</h4>
 
               </div>
+            </article>
+            <article className='experience__details'>
+              <BsFillCheckCircleFill className='experience__details-icon'/>
+              <div>
+                <h4>Sanity</h4>
+
+              </div>
+
+            </article>
+            <article className='experience__details'>
+              <BsFillCheckCircleFill className='experience__details-icon'/>
+              <div>
+                <h4>Sanity</h4>
+
+              </div>
+
             </article>
           </div>
         </div>

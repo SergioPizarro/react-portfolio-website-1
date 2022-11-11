@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import wePick from '../../assets/wePick.png';
+// import wePick from '../../assets/wePick.png';
 import rentAPlant from '../../assets/rentAPlant.png';
 import githubPortfolio from '../../assets/githubPortfolio.png'
 const Portfolio = () => {
@@ -10,7 +10,7 @@ const Portfolio = () => {
       <h2>My Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className='portfolio__item'>
+        {/* <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={wePick} alt="wepick" />
           </div>
@@ -22,7 +22,7 @@ const Portfolio = () => {
             <div className="a__d"><a href='https://www.we-pick.fun' className='btn btn-primary' target='blank'>Try it yourself</a>
             </div>
           </div>
-        </article>
+        </article> */}
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
@@ -58,8 +58,8 @@ const Portfolio = () => {
         </article>
 
 
-      </div >
-    </section >
+      </div>
+    </section>
   )
 }
 
